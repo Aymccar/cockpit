@@ -26,6 +26,8 @@ export enum CustomMode {
   CIRCLE = 7,
   // Automatically return to surface, pilot maintains horizontal control
   SURFACE = 9,
+  // CHAD aymeric
+  CHAD = 10,
   // Automatic position hold with manual override, with automatic throttle
   POSHOLD = 16,
   // Pass-through input with no stabilization

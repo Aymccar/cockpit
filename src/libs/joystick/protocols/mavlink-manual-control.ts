@@ -41,6 +41,7 @@ export enum MAVLinkButtonFunction {
   mode_guided = 'Mode guided', // 11
   mode_acro = 'Mode acro', // 12
   mode_surftrak = 'Mode surftrak', // 13
+  mode_chad = 'Mode chad', // 13
   mount_center = 'Mount center', // 21
   mount_tilt_up = 'Mount tilt up', // 22
   mount_tilt_down = 'Mount tilt down', // 23
@@ -239,6 +240,7 @@ const mavlinkManualControlButtonFunctions: { [key in MAVLinkButtonFunction]: MAV
   [MAVLinkButtonFunction.mode_stabilize]: new MAVLinkManualControlButtonAction(MAVLinkButtonFunction.mode_stabilize, 'Mode stabilize'),
   [MAVLinkButtonFunction.mode_depth_hold]: new MAVLinkManualControlButtonAction(MAVLinkButtonFunction.mode_depth_hold, 'Mode depth hold'),
   [MAVLinkButtonFunction.mode_poshold]: new MAVLinkManualControlButtonAction(MAVLinkButtonFunction.mode_poshold, 'Mode poshold'),
+  [MAVLinkButtonFunction.mode_chad]: new MAVLinkManualControlButtonAction(MAVLinkButtonFunction.mode_chad, 'Mode chad'),
   [MAVLinkButtonFunction.mode_auto]: new MAVLinkManualControlButtonAction(MAVLinkButtonFunction.mode_auto, 'Mode auto'),
   [MAVLinkButtonFunction.mode_circle]: new MAVLinkManualControlButtonAction(MAVLinkButtonFunction.mode_circle, 'Mode circle'),
   [MAVLinkButtonFunction.mode_guided]: new MAVLinkManualControlButtonAction(MAVLinkButtonFunction.mode_guided, 'Mode guided'),
